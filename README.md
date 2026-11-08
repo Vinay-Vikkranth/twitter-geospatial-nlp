@@ -6,6 +6,22 @@
 
 ASU Quark Lab research software connecting social media text with geographic and temporal incident context. The expanded study configuration contains **53 city boundaries, 3,578 incidents and 17,890 incident-day windows**. This repository preserves the current extraction and labeling implementation and provides a runnable public example using invented tweets and a synthetic polygon.
 
+## Maps of the configured GIS study
+
+These **native ArcGIS Pro exports use the expanded pipeline's validated research boundaries and registry**, rather than synthetic coordinates. They show configured study geography, not completion of archive extraction or LLM labeling.
+
+### The 53-city study footprint
+
+![Native ArcGIS Pro map of the 53 configured Twitter-study city boundaries represented by city markers](docs/assets/twitter-study-53-cities-arcgis.png)
+
+Marker sizes show **configured incident counts by city** from the study registry, totaling **3,578 incidents and 17,890 incident-day windows**. Markers use boundary centroids for nationwide readability; they are not tweet locations or incident-level points. Nearby city markers can overlap at this scale. Counts describe the configured population, not tweet volume or archive completeness.
+
+### Chicago point-in-boundary geofence
+
+![Native ArcGIS Pro export of the actual Chicago city polygon used by the Twitter spatial filter](docs/assets/twitter-chicago-boundary-arcgis.png)
+
+The polygon is the **actual configured Chicago boundary**, transformed from declared **NAD83 (EPSG:4269) to WGS84 (EPSG:4326)**. It illustrates the geographic condition used with city-local date windows. No raw tweets, text, IDs or tweet coordinates are displayed. [Map provenance](docs/MAP_PROVENANCE.md) explains the source and export checks.
+
 ![Geospatial NLP architecture](docs/assets/pipeline.png)
 
 **Status:** extraction logic and software regression checks exist. The full archive run, real Llama pilot, human-reviewed label benchmark and cluster throughput validation remain incomplete. A successful schema check is not evidence that a label is scientifically accurate.

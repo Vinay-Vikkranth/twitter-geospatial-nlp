@@ -18,3 +18,7 @@ GitHub Actions repeats those commands on a clean Ubuntu runner. Workflow status 
 All 50 preserved research regression tests were freshly rerun successfully in the isolated local workspace with authorized copied inputs and simulated model backends. This is separate from the five public regression tests. Real Llama inference and the full archive remain pending.
 
 The initial uploaded commit passed GitHub Actions on a clean Ubuntu runner. The final commit is checked again after the documentation update. No raw research input is part of either commit.
+
+## ArcGIS README galleries
+
+November 7: two native ArcGIS maps added with project-specific captions, retained basemap attribution and visual inspection. Homelessness reuses the existing paper exports; gun violence and Twitter use newly exported ArcGIS Pro 3.6 layouts from verified source layers. See MAP_PROVENANCE.md for counts, CRS and prototype versus final-study distinctions. No analysis/model code changed.
