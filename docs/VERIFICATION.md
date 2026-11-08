@@ -12,3 +12,9 @@ python -m unittest discover -s tests -v
 ```
 
 GitHub Actions repeats those commands on a clean Ubuntu runner. Workflow status must be checked on GitHub rather than inferred from local success. Notebook outputs were cleared for public sharing; historical saved outputs and original data remain in the untouched source folders. ArcGIS exports need a licensed ArcGIS Pro Python environment, and real LLM inference needs approved model access and adequate compute. No model download or archive processing is triggered by the sample or tests.
+
+## Completed publication checks
+
+All 50 preserved research regression tests were freshly rerun successfully in the isolated local workspace with authorized copied inputs and simulated model backends. This is separate from the five public regression tests. Real Llama inference and the full archive remain pending.
+
+The initial uploaded commit passed GitHub Actions on a clean Ubuntu runner. The final commit is checked again after the documentation update. No raw research input is part of either commit.

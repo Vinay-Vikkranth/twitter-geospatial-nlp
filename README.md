@@ -1,5 +1,7 @@
 # Twitter Analysis: Geospatial NLP and Incident Linkage
 
+[![Validate public sample](https://github.com/Vinay-Vikkranth/twitter-geospatial-nlp/actions/workflows/validate.yml/badge.svg)](https://github.com/Vinay-Vikkranth/twitter-geospatial-nlp/actions/workflows/validate.yml)
+
 **Python · Shapely / PyProj · City-local time windows · SQLite checkpoints · Strict JSON labeling**
 
 ASU Quark Lab research software connecting social media text with geographic and temporal incident context. The expanded study configuration contains **53 city boundaries, 3,578 incidents and 17,890 incident-day windows**. This repository preserves the current extraction and labeling implementation and provides a runnable public example using invented tweets and a synthetic polygon.
@@ -71,3 +73,9 @@ City-day coincidence does not establish that a tweet discusses a particular inci
 ## Attribution
 
 Vinay Vikkranth Subramanian's ASU Quark Lab work with Dr. Asish Satpathy; the current expanded pipeline adapts teammate **Avantika Tiwari's** source. Legacy and expanded versions are kept distinct. See [provenance](docs/PROVENANCE.md), [verification](docs/VERIFICATION.md) and [NOTICE](NOTICE.md). No raw tweets, credentials, model weights or unpublished manuscripts are committed.
+
+## Recorded research evidence
+
+![Recorded research results](docs/assets/research-results.png)
+
+The 303 selected tweets and two conflicting IDs belong to an earlier local sample. No original tweet text or IDs are included. Counts are not label accuracy or archive completeness.
