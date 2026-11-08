@@ -1,0 +1,8 @@
+message_id,tweet_date,text,latitude,longitude
+syn-1,2023-03-27T01:00:00Z,A fictional shooting report,41.5,-87.5
+syn-1,2023-03-27T01:00:00Z,A fictional shooting report,41.5,-87.5
+syn-2,2023-03-27T01:00:00Z,gun violence sample,41.6,-87.6
+syn-2,2023-03-27T01:00:00Z,a different gun violence sample,41.6,-87.6
+syn-3,2023-03-27T01:00:00Z,gun violence outside polygon,30,-100
+syn-4,2023-03-27T01:00:00Z,coffee at home,41.5,-87.5
+syn-5,2023-03-28T01:00:00Z,A gun violence discussion,41.5,-87.5

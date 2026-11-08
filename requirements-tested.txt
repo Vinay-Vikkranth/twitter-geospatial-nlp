@@ -1,0 +1,14 @@
+# Direct package versions used in local validation on Python 3.13.5 / Windows.
+# This is a tested direct-dependency snapshot, NOT a full cross-platform lockfile.
+# Harvard must choose a CUDA-compatible PyTorch distribution and rerun all tests.
+numpy==2.5.4
+pandas==3.1.0
+shapely==2.2.0
+pyproj==3.8.0
+torch==2.14.1
+transformers==5.20.2
+huggingface_hub==2.2.0
+emoji==2.16.0
+openpyxl==3.1.5
+tzdata==2026.5
+psutil==7.2.2

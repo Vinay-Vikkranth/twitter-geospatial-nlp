@@ -1,0 +1,25 @@
+# Step 1 — filter tweets by incident date + city boundary
+numpy>=1.26
+pandas>=2.1
+openpyxl>=3.1  # Rebuild incident input from the master workbook
+tqdm>=4.66
+shapely>=2.0
+pyproj>=3.6
+tzdata>=2024.1
+psutil>=5.9
+
+# Step 2 — emotion / sentiment labeling with Llama 3.2
+torch>=2.2
+transformers>=4.45
+accelerate>=0.30
+safetensors>=0.4
+sentencepiece>=0.2
+emoji>=2.10
+huggingface_hub>=0.23
+
+# Running the notebooks
+jupyter
+ipykernel
+ipywidgets>=7.8
+nbconvert>=7.0
+nbclient>=0.10

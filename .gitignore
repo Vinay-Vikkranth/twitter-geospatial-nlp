@@ -1,0 +1,23 @@
+# Private research inputs are intentionally local only
+data/private/
+data/research/
+outputs/
+artifacts/
+digital_twin/artifacts/
+digital_twin/hosting/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+*.env
+!*.env.example
+*.sqlite*
+*.db
+*.joblib
+*.pkl
+*.pt
+*.safetensors
+*.aprx
+*.gdb/
